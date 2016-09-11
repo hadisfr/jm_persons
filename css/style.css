@@ -1,0 +1,22 @@
+li.jm_persons img{
+	width: 50%;
+	max-width: 200px;
+	height: auto;
+	border-radius: 50%;
+	border: 10px solid #474431;
+	transition: 0.5s;
+	background: url(../img/avatar1.png) center/100% no-repeat;
+}
+li.jm_persons img:hover{
+	border-width: 3px;
+	filter: brightness(120%);
+}
+li.jm_persons h5{
+	color: #474431;
+}
+li.jm_persons ul{
+	padding-right: 16px;
+	font-size: 0.8em;
+	text-align: right;
+	text-indent: -16px;
+}

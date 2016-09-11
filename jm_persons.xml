@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>jm_persons</name>
+    <author>Hadi Safari</author>
+    <authorEmail>hadisafari76@gmail.com</authorEmail>
+    <version>1.0.0</version>
+    <description>Show resume and avatar.&lt;br&gt;&lt;b&gt;NOTION&lt;/b&gt;: Use inside &amp;lt;u&amp;gt; tag.&lt;br&gt;&lt;br&gt;Designed by &lt;span title="hadisafari76[at]gmail.com"&gt;Hadi Safari.&lt;/span&gt;</description>
+    <files>
+        <filename>jm_persons.xml</filename>
+        <filename module="jm_persons">jm_persons.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>css/style.css</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <folder>img</folder>
+    </files>
+    <config><fields name="params"><fieldset name="Basic">
+        <field name="name" type="text" default="" label="Name" />
+        <field name="role" type="text" default="" label="Role" />
+        <field name="avatar" type="media" default="" label="Picture" />
+        <field type="spacer" name="myspacer" label="Rseume" />
+        <field name="resume1" type="text" default="" label=" " />
+        <field name="resume2" type="text" default="" label=" " />
+        <field name="resume3" type="text" default="" label=" " />
+        <field name="resume4" type="text" default="" label=" " />
+        <field name="resume5" type="text" default="" label=" " />
+        <field name="link" type="URL" default="" label="URL of Full Resume" />
+    </fieldset></fields></config>
+</extension>
